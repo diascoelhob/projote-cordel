@@ -1,0 +1,21 @@
+.passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+header {
+    background-color: black;
+    color: white;
+    font-family: Passion One, sans-serif;
+}
+
+header h1 {
+    font-size: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
