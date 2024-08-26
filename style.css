@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Passion";
-    src: url(fonts/Passion_One-2/PassionOne-Bold.ttf);
+    font-family: Passion;
+    src: url(fonts/Passion_One-2/PassionOne-Regular.ttf);
 }
 
 :root {
@@ -9,19 +9,28 @@
     --fonte3: 'Sriracha', cursive;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
 header {
-    background-color: black;
+    padding: 35px;
     color: white;
+    background-color: black;
+    text-align: center;
 }
 
 header h1 {
-    text-align: center;
-    margin: 0px;
-    padding: 35px;
-    font-family: var(--fonte2);
     font-size: 10vw;
+    font-family: var(--fonte2);
     font-variant: small-caps;
-    
+}
+
+header p {
+    font-size: 2vw;
+    font-family: var(--fonte1);
 }
 
 a {
