@@ -34,7 +34,7 @@ header h1 {
 }
 
 header p {
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: var(--fonte1);
 }
 
@@ -52,20 +52,35 @@ article p {
     padding-top: 60px;
     padding-bottom: 60px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 
-article p.imagem {
-    background-size: 150%;
-    background-position: center;
+article div.imagem {
+    padding: 60px;
+    background-size: cover;
+    color: white;
+    background-attachment: center;
 }
 
-article p#flor {
+article div#flor {
     background-image: url(pacote-d012/imagens/background001.jpg);
-    color: white;
 }
 
-article p#livro {
+article div#livro {
     background-image: url(pacote-d012/imagens/background002.jpg);
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte1);
+    background-color: black;
     color: white;
+    font-size: 2vw;
+}
+
+article div p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px;
 }
