@@ -3,6 +3,11 @@
     src: url(fonts/Passion_One-2/PassionOne-Regular.ttf);
 }
 
+@font-face {
+    font-family: Sriracha;
+    src: url(fonts/Sriracha/Sriracha-Regular.ttf);
+}
+
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion', cursive;
@@ -16,7 +21,7 @@
 }
 
 header {
-    padding: 35px;
+    padding: 50px;
     color: white;
     background-color: black;
     text-align: center;
@@ -29,7 +34,7 @@ header h1 {
 }
 
 header p {
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: var(--fonte1);
 }
 
@@ -40,4 +45,27 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+article p {
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+article p.imagem {
+    background-size: 150%;
+    background-position: center;
+}
+
+article p#flor {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    color: white;
+}
+
+article p#livro {
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    color: white;
 }
