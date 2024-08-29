@@ -59,7 +59,7 @@ article div.imagem {
     padding: 60px;
     background-size: cover;
     color: white;
-    background-attachment: center;
+    background-attachment: fixed;
 }
 
 article div#flor {
