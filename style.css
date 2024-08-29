@@ -60,7 +60,7 @@ article div.imagem {
     background-size: cover;
     color: white;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right center;
 }
 
 article div#flor {
