@@ -50,7 +50,7 @@ a:hover {
 article p {
     padding-left: 60px;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 60px;   
     font-family: var(--fonte3);
     font-size: 4vw;
 }
